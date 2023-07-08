@@ -4,7 +4,7 @@ nav {
  justify-content: space-between;
  align-items: center;
  align-items: center;
- margin:0 150px ;
+ margin: 0 150px;
 }
 
 .nav-title {
@@ -16,7 +16,7 @@ nav {
  line-height: normal;
 }
 
-.rd {}
+
 
 .text-primary {
  color: #FD6E0A;
@@ -39,24 +39,69 @@ nav a {
 
 .button-primary {
  border-radius: 5px;
- background:#FD6E0A;
+ background: #8fe27f;
  border: 0;
  color: aliceblue;
  font-size: 20px;
  font-weight: 600;
-padding: 15px 30px;
+ padding: 15px 30px;
 }
+
 /*header related css*/
 
-.header-class{
+.header-class {
  background-color: #f9ede5dc;
+ background-image: url(header_bg.png);
+ background-repeat: no-repeat;
+ background-position: bottom right;
 
 }
-.banner{
- padding: 40px 30px 30px 150px;
+
+.banner {
+ padding: 40px 30px 0px 150px;
  display: flex;
  flex-shrink: 0;
  align-items: center;
+ justify-content: space-between;
 }
 
+.banner-greeting {
+ color: brown;
+
+}
+
+.banner-title {
+ color: blueviolet;
+}
+
+.content {
+ color: rgb(245, 9, 68);
+ font-size: large;
+}
+
+/*main section*/
+.section-title {
+ color: var(--dark-01, #181818);
+ text-align: center;
+ font-family: Open Sans;
+ font-size: 35px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: normal;
+
+}
+.section-content{
+ color: deepskyblue;
+ text-align: center;
+ font-size: 20px;
+}
+.about{
+ padding: 130px;
+ border-radius: 20px;
+ background-color:#f9ede5dc ;
+ margin-top: 150px;
+ margin-left: 140px;
+ margin-right: 140px;
+ margin-bottom: 150px;
+}
 
