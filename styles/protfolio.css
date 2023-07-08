@@ -118,3 +118,11 @@ nav a {
 .info-title{
  font-weight: 200;
 }
+#what-i-do-con{
+ padding: 30px 150px;
+ justify-content: center;
+}
+.skill-container{
+ display: flex;
+ justify-content: space-between;
+}
