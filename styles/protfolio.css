@@ -105,3 +105,16 @@ nav a {
  margin-bottom: 150px;
 }
 
+.about-info-container{
+ display: flex;
+ justify-content: space-between;
+}
+.about-info{
+ text-align: center;
+}
+.info-cintent{
+ font-weight: bolder;
+}
+.info-title{
+ font-weight: 200;
+}
