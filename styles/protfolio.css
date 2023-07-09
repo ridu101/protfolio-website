@@ -188,3 +188,31 @@ main section {
  text-align: center;
  margin: 0px;
 }
+footer{
+display: flex;
+gap: 100p;
+padding: 130px;
+border-radius: 20px;
+background-color: #f9ede5dc;
+margin-top: 150px;
+margin-left: 140px;
+margin-right: 140px;
+margin-bottom: 150px;
+}
+.footer-colam{
+ gap: 20px;
+ width: 50%;
+ justify-content: center;
+ 
+
+}
+.contact input, textarea{
+ display: block;
+ margin-bottom: 25px;
+ padding: 18px 30px;
+ color: red;
+}
+.section-title-foot{
+ font-size: 30px;
+ justify-content: left;
+}
