@@ -80,49 +80,80 @@ nav a {
 }
 
 /*main section*/
+
 .section-title {
  color: var(--dark-01, #181818);
  text-align: center;
- font-family: Open Sans;
+
  font-size: 35px;
  font-style: normal;
  font-weight: 700;
  line-height: normal;
 
 }
-.section-content{
+
+.section-content {
  color: deepskyblue;
  text-align: center;
  font-size: 20px;
 }
-.about{
+
+main section {
+ margin-top: 130px;
+}
+
+.about {
  padding: 130px;
  border-radius: 20px;
- background-color:#f9ede5dc ;
+ background-color: #f9ede5dc;
  margin-top: 150px;
  margin-left: 140px;
  margin-right: 140px;
  margin-bottom: 150px;
 }
 
-.about-info-container{
+.about-info-container {
  display: flex;
  justify-content: space-between;
 }
-.about-info{
+
+.about-info {
  text-align: center;
 }
-.info-cintent{
+
+.info-cintent {
  font-weight: bolder;
 }
-.info-title{
+
+.info-title {
  font-weight: 200;
 }
-#what-i-do-con{
+
+#what-i-do-con {
  padding: 30px 150px;
  justify-content: center;
 }
-.skill-container{
+
+.skill-container {
  display: flex;
  justify-content: space-between;
+ gap: 30px;
+}
+
+.skill-descroption {
+ color: rgb(142, 93, 21);
+}
+
+.skill {
+ padding: 35px;
+ background: f9ede5dc;
+ box-shadow: 0px 5px 40px 0px rgb(226, 218, 218);
+
+}
+
+.resume-colam-title {
+ color: cornflowerblue;
+ font-size: 30px;
+ font-weight: 700;
+ line-height: normal;
 }
