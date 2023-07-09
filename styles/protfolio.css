@@ -157,3 +157,34 @@ main section {
  font-weight: 700;
  line-height: normal;
 }
+.rseume-container{
+ display: flex;
+ gap: 50px;
+ padding: 130px;
+ border-radius: 20px;
+ background-color: #f9ede5dc;
+ margin-top: 150px;
+ margin-left: 140px;
+ margin-right: 140px;
+ margin-bottom: 150px;
+ 
+
+}
+.resume-item-containt{
+ color: chocolate;
+
+}
+.resume-item-inistitue{
+ color: darkkhaki;
+ font-size: 20px;
+}
+.resume-item-title{
+ color: deeppink;
+ font-size: 25px;
+ 
+}
+.download-cv-s{
+ justify-content: center;
+ text-align: center;
+ margin: 0px;
+}
